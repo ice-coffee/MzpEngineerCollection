@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MzpEngineerCollection</string>
+
+    <string-array name="question_list">
+        <item>ListView怎么和ScrollView兼容</item>
+        <item>ViewPager无限轮播图片</item>
+        <item>out of memory内存溢出怎么解决</item>
+        <item>三级缓存如何实现</item>
+        <item>登录时怎么保存用户名密码实现下次自动登录</item>
+    </string-array>
+</resources>
