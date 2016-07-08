@@ -7,5 +7,12 @@
         <item>out of memory内存溢出怎么解决</item>
         <item>三级缓存如何实现</item>
         <item>登录时怎么保存用户名密码实现下次自动登录</item>
+        <item>toobar，actionbar玩的转不</item>
+        <item>webview</item>
+        <item>recycleview</item>
+        <item>CoordinatorLayout</item>
+        <item>tab用actionbar就能实现你知道吗</item>
+        <item>Listview的item中含有Button会抢占焦点</item>
+        <item>fragment的俩个适配器的区别</item>
     </string-array>
 </resources>
