@@ -15,4 +15,9 @@
         <item>Listview的item中含有Button会抢占焦点</item>
         <item>fragment的俩个适配器的区别</item>
     </string-array>
+
+    <string name="answer_one">方案一</string>
+    <string name="answer_two">方案二</string>
+    <string name="answer_three">方案三</string>
+    <string name="answer_four">方案四</string>
 </resources>

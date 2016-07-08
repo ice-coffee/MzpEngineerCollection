@@ -2,6 +2,8 @@ package com.github.engineer.ui.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -32,6 +34,20 @@ public class MainActivity extends AppCompatActivity implements MainView
 
         mainPresenter = new MainPresenterImpel(this, this);
         mainPresenter.setMainListAdapter();
+
+        allQuestion.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id)
+            {
+                switch (position)
+                {
+                    case 1:
+
+                        break;
+                }
+            }
+        });
     }
 
     @Override
