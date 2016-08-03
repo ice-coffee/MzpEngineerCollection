@@ -1,5 +1,6 @@
 package com.github.engineer.ui.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -42,8 +43,11 @@ public class MainActivity extends AppCompatActivity implements MainView
             {
                 switch (position)
                 {
-                    case 1:
-
+                    case 0:
+                        startActivity(new Intent(MainActivity.this, ListAndScrollActivity.class));
+                        break;
+                    case 2:
+                        startActivity(new Intent(MainActivity.this, DialogActivity.class));
                         break;
                 }
             }
