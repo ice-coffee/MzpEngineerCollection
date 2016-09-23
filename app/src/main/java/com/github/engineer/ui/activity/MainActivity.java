@@ -13,7 +13,7 @@ import com.github.engineer.presenter.MainPresenter;
 import com.github.engineer.presenter.impel.MainPresenterImpel;
 import com.github.engineer.views.MainView;
 
-import butterknife.BindView;
+import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
@@ -22,10 +22,10 @@ import butterknife.ButterKnife;
  */
 public class MainActivity extends AppCompatActivity implements MainView
 {
-    @BindView(R.id.all_question)
+    @Bind(R.id.all_question)
     ListView allQuestion;
-
     private MainPresenter mainPresenter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements MainView
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
+        allQuestion= (ListView) findViewById(R.id.all_question);
         mainPresenter = new MainPresenterImpel(this, this);
         mainPresenter.setMainListAdapter();
 
